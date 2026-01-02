@@ -48,7 +48,7 @@
             <!-- Blog Card 1 -->
             <article
                 class="group relative bg-white p-6 rounded-3xl border border-slate-100 hover:border-accent/20 hover:shadow-2xl transition-all duration-500">
-                <a href="post.php" class="block">
+                <a href="post" class="block">
                     <div class="aspect-video bg-slate-200 rounded-2xl mb-6 overflow-hidden relative">
                         <div
                             class="absolute inset-0 bg-gradient-to-tr from-primary to-transparent opacity-10 group-hover:opacity-20 transition-opacity">
@@ -64,7 +64,7 @@
                     <span class="text-slate-400 text-sm">5 min read</span>
                 </div>
                 <h3 class="text-2xl font-bold text-primary mb-3 group-hover:text-accent transition-colors">
-                    <a href="post.php">The Rise of Progressive Hydration in JS Frameworks</a>
+                    <a href="post">The Rise of Progressive Hydration in JS Frameworks</a>
                 </h3>
                 <p class="text-slate-600 mb-6 line-clamp-2">
                     Understanding how modern frameworks are optimizing performance by partially hydrating components on
