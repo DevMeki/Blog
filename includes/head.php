@@ -14,4 +14,9 @@
         --color-surface: #F8FAFC;
     }
 </style>
-<script src="includes/main.js" defer></script>
+<script>
+<?php 
+// Inline the main.js file to avoid path resolution issues across different directories
+include __DIR__ . '/main.js'; 
+?>
+</script>
