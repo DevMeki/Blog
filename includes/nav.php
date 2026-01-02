@@ -15,11 +15,12 @@
             </a>
             <div class="hidden md:flex items-center space-x-8">
                 <?php $current_page = basename($_SERVER['PHP_SELF']); ?>
-                <a href="index.php"
+                <a href="index"
                     class="text-slate-600 hover:text-primary transition-colors font-medium <?php echo ($current_page == 'index.php') ? 'text-primary font-bold border-b-2 border-accent pb-0.5' : ''; ?>">Articles</a>
-                <a href="categories.php"
+                <a href="categories"
                     class="text-slate-600 hover:text-primary transition-colors font-medium <?php echo ($current_page == 'categories.php') ? 'text-primary font-bold border-b-2 border-accent pb-0.5' : ''; ?>">Categories</a>
-                <a href="#" class="text-slate-600 hover:text-primary transition-colors font-medium">About</a>
+                <a href="about"
+                    class="text-slate-600 hover:text-primary transition-colors font-medium <?php echo ($current_page == 'about.php') ? 'text-primary font-bold border-b-2 border-accent pb-0.5' : ''; ?>">About</a>
                 <button
                     class="bg-primary text-white px-5 py-2 rounded-full font-semibold hover:bg-slate-800 transition-all shadow-lg shadow-slate-900/20 active:scale-95">
                     Subscribe
